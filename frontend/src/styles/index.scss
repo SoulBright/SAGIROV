@@ -1,0 +1,23 @@
+@import '~normalize.css';
+
+@font-face {
+    font-family: 'Museo-Sans-Cyrl-300';
+    src: url('../assets/museosanscyrl-300.ttf');
+}
+
+*, *:after, *:before {
+    box-sizing: border-box;
+}
+
+#root {
+    font-family: 'Museo-Sans-Cyrl-300';
+}
+
+.container {
+    max-width: 1920px;
+    margin: 0 auto;
+    background-image: url('../../public/images/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

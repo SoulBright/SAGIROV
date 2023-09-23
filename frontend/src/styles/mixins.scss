@@ -1,0 +1,10 @@
+@mixin advantageItems ($y, $x, $transparent, $color) {
+    width: 185px;
+    height: 185px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to $y $x, transparent $transparent, $color);
+    cursor: pointer;
+}
